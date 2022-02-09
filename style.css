@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(imagens/yoru-fundo.gif);
+    background-repeat: no-repeat;
+    background-position: -1vw;
+    align-items: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #343434;
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+    margin-left: 35vw;
+    margin-top: 20vh;
+}
+
+img#imgtopo{
+    width: 100px;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+main form label span{
+    font-size: 1rem;
+    margin-top: 1rem;
+    
+}
+
+main form input{
+    background: #888888;
+    width: 300px;
+    height: 40px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: rgba(166, 166, 166);
+    font-size: 1rem;
+    border: 1px solid #040b18;
+    border-radius: 8px;
+}
